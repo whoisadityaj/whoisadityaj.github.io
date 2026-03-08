@@ -2,40 +2,40 @@ const Portfolio = (function () {
 	function makeWords() {
 		var words = [
 			{
-				text: "Visionary",
-				weight: 12.3,
+				text: "Java",
+				weight: 12,
 			},
 			{
-				text: "CSS3",
-				weight: 8,
+				text: "Splint",
+				weight: 12,
 			},
 			{
-				text: "enterpreneur",
-				weight: 14,
-			},
-			{
-				text: "jquery",
-				weight: 4,
-			},
-			{
-				text: "programming",
-				weight: 7,
-			},
-			{
-				text: "python",
+				text: "APIs",
 				weight: 10,
 			},
 			{
-				text: "java",
+				text: "Backend",
+				weight: 10,
+			},
+			{
+				text: "Architecture",
 				weight: 9,
 			},
 			{
-				text: "quantum",
-				weight: 15,
+				text: "PHP",
+				weight: 10,
 			},
 			{
-				text: "coder",
-				weight: 7,
+				text: "Node.js",
+				weight: 8,
+			},
+			{
+				text: "Systems",
+				weight: 11,
+			},
+			{
+				text: "Products",
+				weight: 8,
 			},
 		];
 		return words;
@@ -65,18 +65,21 @@ const Portfolio = (function () {
 	function typeAnimation() {
 		Typed.new("#writing-text", {
 			strings: [
-				"am a Full-Stack Web Developer.",
-				"am founder of Portala.",
-				"love to code",
-				"am Enthusiastic Coder!.",
+				"build Java and Splint applications.",
+				"design backend systems and APIs.",
+				"ship practical software products.",
+				"improve old projects into polished work.",
 			],
 			stringsElement: null,
-			typeSpeed: 1,
+			typeSpeed: 40,
+			backSpeed: 20,
+			backDelay: 1000,
+			loop: true,
 			contentType: "text",
 			callback: function () {
 				$("#writing-text").css({
 					color: "#fff",
-					"background-color": "#C8412B",
+					"background-color": "transparent",
 				});
 			},
 			preStringTyped: function () {},

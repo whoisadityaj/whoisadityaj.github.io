@@ -1,1 +1,18 @@
-# Aditya9056.github.io
+# aditya9056.github.io
+
+Personal portfolio site for `Aditya9056`.
+
+## Purpose
+
+This site acts as the public landing page for my GitHub profile and selected work. It is being refreshed to better reflect my current direction in Java and Splint development while still keeping earlier PHP and web projects available as background experience.
+
+## Tech
+
+- HTML
+- CSS
+- JavaScript
+- Foundation
+
+## Local preview
+
+Open `index.html` directly in a browser, or serve the directory with a small static file server.
