@@ -4,7 +4,7 @@ Personal portfolio site for `Aditya9056`.
 
 ## Purpose
 
-This site acts as the public landing page for my GitHub profile and selected work. It is being refreshed to better reflect my current direction in Java and Splint development while still keeping earlier PHP and web projects available as background experience.
+This site acts as the public landing page for my GitHub profile and selected work. It is being refreshed to better reflect my current direction in Java and Spring Boot development while still keeping earlier PHP and web projects available as background experience.
 
 ## Tech
 

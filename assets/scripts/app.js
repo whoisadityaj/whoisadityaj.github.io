@@ -3,39 +3,51 @@ const Portfolio = (function () {
 		var words = [
 			{
 				text: "Java",
-				weight: 12,
+				weight: 14,
 			},
 			{
-				text: "Splint",
-				weight: 12,
+				text: "Spring Boot",
+				weight: 13,
 			},
 			{
-				text: "APIs",
-				weight: 10,
+				text: "REST APIs",
+				weight: 11,
 			},
 			{
 				text: "Backend",
+				weight: 11,
+			},
+			{
+				text: "Selenium",
 				weight: 10,
 			},
 			{
-				text: "Architecture",
+				text: "Playwright",
+				weight: 10,
+			},
+			{
+				text: "JMeter",
 				weight: 9,
 			},
 			{
 				text: "PHP",
-				weight: 10,
+				weight: 9,
 			},
 			{
 				text: "Node.js",
 				weight: 8,
 			},
 			{
-				text: "Systems",
-				weight: 11,
+				text: "Docker",
+				weight: 8,
 			},
 			{
-				text: "Products",
+				text: "MySQL",
 				weight: 8,
+			},
+			{
+				text: "Automation",
+				weight: 10,
 			},
 		];
 		return words;
@@ -65,10 +77,10 @@ const Portfolio = (function () {
 	function typeAnimation() {
 		Typed.new("#writing-text", {
 			strings: [
-				"build Java and Splint applications.",
+				"build Java & Spring Boot applications.",
 				"design backend systems and APIs.",
+				"automate testing with Selenium & Playwright.",
 				"ship practical software products.",
-				"improve old projects into polished work.",
 			],
 			stringsElement: null,
 			typeSpeed: 40,
