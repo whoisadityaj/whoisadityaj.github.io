@@ -2,6 +2,8 @@
 
 Personal portfolio site for `Aditya9056`.
 
+**Live site:** <https://whoisadityaj.github.io/aditya9056.github.io/>
+
 ## Purpose
 
 This site acts as the public landing page for my GitHub profile and selected work. It is being refreshed to better reflect my current direction in Java and Spring Boot development while still keeping earlier PHP and web projects available as background experience.
