@@ -2,7 +2,7 @@
 
 Personal portfolio site for `Aditya9056`.
 
-**Live site:** <https://whoisadityaj.github.io/aditya9056.github.io/>
+**Live site:** <https://whoisadityaj.github.io/>
 
 ## Purpose
 
